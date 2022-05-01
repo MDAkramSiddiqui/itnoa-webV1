@@ -124,7 +124,7 @@
    * LTS schedule: https://nodejs.org/en/about/releases/
    * LTS versions: https://nodejs.org/en/download/releases/
    */
-  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+  "nodeSupportedVersionRange": ">=14.12.0 <15.0.0",
 
   /**
    * Odd-numbered major versions of Node.js are experimental.  Even-numbered releases
@@ -175,8 +175,8 @@
    * To remove these restrictions, you could set projectFolderMinDepth=1
    * and set projectFolderMaxDepth to a large number.
    */
-  // "projectFolderMinDepth": 2,
-  // "projectFolderMaxDepth": 2,
+  "projectFolderMinDepth": 2,
+  "projectFolderMaxDepth": 2,
 
   /**
    * Today the npmjs.com registry enforces fairly strict naming rules for packages, but in the early
@@ -211,12 +211,12 @@
   //    * Designate categories with whatever granularity is appropriate for your review process,
   //    * or you could just have a single category called "default".
   //    */
-  //   "reviewCategories": [
-  //     // Some example categories:
-  //     "production", // projects that ship to production
-  //     "tools",      // non-shipping projects that are part of the developer toolchain
-  //     "prototypes"  // experiments that should mostly be ignored by the review process
-  //   ],
+    // "reviewCategories": [
+    //   // Some example categories:
+    //   "production", // projects that ship to production
+    //   "tools",      // non-shipping projects that are part of the developer toolchain
+    //   "prototypes"  // experiments that should mostly be ignored by the review process
+    // ],
   // 
   //   /**
   //    * A list of NPM package scopes that will be excluded from review.
@@ -396,6 +396,11 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "common-styles",
+      "projectFolder": "styles/common-styles",
+      "shouldPublish": false
+    }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
