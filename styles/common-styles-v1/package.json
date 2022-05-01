@@ -1,0 +1,28 @@
+{
+  "name": "@itnoa/common-styles-v1",
+  "version": "1.0.0",
+  "description": "Common styles for @itnoa-appsV1",
+  "scripts": {
+    "build": ""
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+      "src"
+  ],
+  "keywords": [
+    "sass",
+    "css",
+    "web",
+    "front-end",
+    "scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MDAkramSiddiqui/itnoa-webV1.git",
+    "directory": "styles/common-styles-v1"
+},
+  "author": "Mohammad Akram <mohammadakram077@gmail.com>",
+  "license": "ISC"
+}
