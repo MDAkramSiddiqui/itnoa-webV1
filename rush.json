@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
   "rushVersion": "5.68.0",
-  "yarnVersion": "1.22.17",
+  "pnpmVersion": "6.32.11",
 
   "pnpmOptions": {
     "strictPeerDependencies": true,
@@ -33,6 +33,11 @@
     {
       "packageName": "@itnoa/common-styles-v1",
       "projectFolder": "styles/common-styles-v1",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@itnoa/dev.mdakram-v1",
+      "projectFolder": "apps/portfolio-v1",
       "shouldPublish": false
     }
   ]
