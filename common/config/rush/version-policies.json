@@ -1,7 +1,7 @@
 [
-  {
-    "definitionName": "individualVersion",
-    "policyName": "libraries",
-    "lockedMajor": 3
-  }
+    {
+        "definitionName": "individualVersion",
+        "policyName": "indi-basic",
+        "lockedMajor": 3
+    }
 ]

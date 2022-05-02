@@ -36,12 +36,14 @@
         {
             "packageName": "@itnoa/common-styles-v1",
             "projectFolder": "styles/common-styles-v1",
-            "shouldPublish": false
+            "shouldPublish": false,
+            "versionPolicyName": "indi-basic"
         },
         {
             "packageName": "@itnoa/dev.mdakram-v1",
             "projectFolder": "apps/portfolio-v1",
-            "shouldPublish": false
+            "shouldPublish": false,
+            "versionPolicyName": "indi-basic"
         }
     ]
 }
