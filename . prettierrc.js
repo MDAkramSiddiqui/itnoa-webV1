@@ -14,6 +14,6 @@ module.exports = {
   // to use them for arrays only
   trailingComma: "none",
 
-  tabWidth: 2,
+  tabWidth: 4,
   useTabs: true,
 };
