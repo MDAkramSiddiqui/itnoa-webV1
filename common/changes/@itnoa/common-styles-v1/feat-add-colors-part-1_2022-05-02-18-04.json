@@ -1,0 +1,10 @@
+{
+    "changes": [
+        {
+            "packageName": "@itnoa/common-styles-v1",
+            "comment": "Added blue colors",
+            "type": "patch"
+        }
+    ],
+    "packageName": "@itnoa/common-styles-v1"
+}
