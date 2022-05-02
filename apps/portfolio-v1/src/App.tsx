@@ -1,7 +1,12 @@
-import styles from './App.module.scss';
+// pages
+import HomePage from './pages/HomePage';
 
 function App() {
-    return <div>Hello World</div>;
+    return (
+        <main>
+            <HomePage />
+        </main>
+    );
 }
 
 export default App;
